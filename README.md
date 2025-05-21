@@ -83,3 +83,11 @@ Tomcat started.
 Then open your browser at:
 👉 http://localhost:8080
 👉 http://localhost:8080/dynamic
+
+
+### :white_check_mark: Try `deploy-app.sh` Script, which automates above mentioned steps
+
+```bash
+chmod +x deploy-apps.sh
+./deploy-apps.sh
+```
