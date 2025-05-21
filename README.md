@@ -63,7 +63,8 @@ This will create a `target/ROOT.war` file, which you can deploy on your Tomcat s
 #### 6. Deploy on Apache Tomcat
 
 1. Download and install `Apache Tomcat` (if not already installed).
-
+2. Copy the `war` file to the `webapps` directory of Tomcat.
+   
     This is how Tomcat folder structure ideally looks like :
 
     ```pgsql
@@ -80,7 +81,6 @@ This will create a `target/ROOT.war` file, which you can deploy on your Tomcat s
          ├── startup.sh
          └── shutdown.sh
     ```
-2. Copy the `war` file to the `webapps` directory of Tomcat.
 3. Start the Tomcat server by running `bin/startup.sh` (Linux/Mac) or `bin/startup.bat` (Windows).
 
 ```bash
