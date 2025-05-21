@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # === CONFIG ===
-TOMCAT_WEBAPPS_PATH="/Users/skumar21/Documents/apache-tomcat-9.0.104/webapps"  # <== Replace this with your Tomcat path - /path/to/tomcat/webapps
+TOMCAT_WEBAPPS_PATH="/path/to/tomcat/webapps"  # <== Replace this with your Tomcat path
 CONFIG_FILE="src/main/resources/config.properties"
 POM_FILE="pom.xml"
 APP_NAMES=("ROOT" "dashboard" "analytics")
