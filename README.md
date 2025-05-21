@@ -94,6 +94,6 @@ Tomcat is lightweight, free, and widely used. Here’s why you see it in:
 
 Let’s break down **how a Servlet Container (like Tomcat or Jetty) manages Servlets** in a way that’s easy to visualize. Think of the container as a "backstage manager" for your Servlets, handling everything from birth to death, multitasking, and even emergencies.
 
-[Servlets LifeCycle](https://github.com/codesuman/tomcat-playground/tree/servlet-life-cycle) 
+[Servlets LifeCycle](https://github.com/codesuman/tomcat-playground/tree/servlets-lifecycle) 
 
 ---
