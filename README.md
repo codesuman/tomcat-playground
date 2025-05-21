@@ -86,6 +86,8 @@ Tomcat is lightweight, free, and widely used. Here’s why you see it in:
 
 [Creating servlet with JSP](https://github.com/codesuman/tomcat-playground/tree/servlet-with-jsp) 
 
+[Deploy Multiple Servlet apps](https://github.com/codesuman/tomcat-playground/tree/tomcat-with-multiple-apps)
+
 -----
 <br>
 
