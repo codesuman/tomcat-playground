@@ -1,6 +1,6 @@
-# All about Tomcat
+# :smiley_cat: All about Tomcat
 
-## What Does a Servlet Container Do?
+## :black_square_button: What Does a Servlet Container Do?
 1. Request Handling: It listens for incoming HTTP requests and routes them to appropriate servlets based on the URL mapping.
 
 2. Servlet Lifecycle Management: It manages the lifecycle of servlets, including their initialization (init()), handling requests (service()), and destruction (destroy()).
@@ -11,7 +11,7 @@
 
 5. Servlet Deployment: It handles the deployment of web applications (servlets, JSPs) packaged as .war files.
 
-## Setting up a Simple Apache Tomcat Server with a Servlet
+## :clipboard: Setting up a Simple Apache Tomcat Server with a Servlet
 
 #### 1. Create a Maven Project
 Start by creating a Maven project. If you're using an IDE like IntelliJ IDEA or Eclipse, you can create the project using the following steps:
