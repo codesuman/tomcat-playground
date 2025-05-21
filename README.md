@@ -83,6 +83,7 @@ Tomcat is lightweight, free, and widely used. Here’s why you see it in:
 - Provide threading, security, and deployment features.  
 
 [Creating Simple servlet and deploying it to Tomcat](https://github.com/codesuman/tomcat-playground/tree/static-servlet) 
+
 [Creating servlet with JSP](https://github.com/codesuman/tomcat-playground/tree/servlet-with-jsp) 
 
 -----
