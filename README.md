@@ -31,6 +31,23 @@ Create a simple servlet in `src/main/java/com/example/servlets/StaticServlet.jav
 
 > Tomcat only treats the app as a `webapp` if it has a valid `WEB-INF/web.xml`. If `web.xml` is not configured, even the maven build process will fail as we have configured the `packaging` should be `war`.
 
+This is how your project folder structure should look like :
+
+```pgsql
+myapp/
+└── src/
+|    ├── main/
+|    │    ├── java/
+|    │    |    └── com/example/servlets
+|    │    |                      └── StaticServlet.java
+|    │    └── webapp/
+|    │          └── WEB-INF
+|    │                └── web.xml
+|    ├── test/
+|    │    └── java/
+└── pom.xml
+```
+
 #### 5. Build the Project
 
 Once you've set up the project structure and files, build the project using Maven.
@@ -53,8 +70,11 @@ This will create a `target/ROOT.war` file, which you can deploy on your Tomcat s
     TOMCAT_HOME/
     └── webapps/
     |    ├── myapp/
-    |    │   ├── index.jsp
-    |    │   └── WEB-INF
+    |    │   ├── META-INF/
+    |    │   └── WEB-INF/
+    |    |       ├── classes/
+    |    │       |     └── com/example/servlets
+    |    │       |                       └── StaticServlet.class
     |    │       └── web.xml
     └── bin/
          ├── startup.sh
