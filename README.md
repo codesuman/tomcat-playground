@@ -93,7 +93,7 @@ Each app will serve its own servlet and load its own config.properties.
 
 
 
-### :white_check_mark: Final `deploy-apps.sh` Script (with config.properties update)
+### :robot: Final `deploy-apps.sh` Script (with config.properties update)
 
 ```bash
 chmod +x deploy-apps.sh
