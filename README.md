@@ -88,6 +88,7 @@ Each app will serve its own servlet and load its own config.properties.
 
   * Namespace
 
+> [!NOTE]
 > :file_folder: Each folder (or .war file) inside tomcat/webapps/ automatically becomes a distinct context path.
 
 
