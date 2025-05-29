@@ -89,7 +89,7 @@ Each app will serve its own servlet and load its own config.properties.
   * Namespace
 
 > [!NOTE]
-> :file_folder: Each folder (or .war file) inside tomcat/webapps/ automatically becomes a distinct context path.
+> :file_folder: Each folder (or .war file) inside `tomcat/webapps/` automatically becomes a distinct context path.
 
 
 
@@ -107,6 +107,6 @@ This script will:
 
 * Leave it unchanged for ROOT
 
-* Change <finalName> in your pom.xml
+* Change `<finalName>` in your pom.xml
 
-* Build and deploy WARs to your Tomcat webapps/ directory
+* Build and deploy WARs to your Tomcat `webapps/` directory
