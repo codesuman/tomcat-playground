@@ -1,7 +1,7 @@
 # :smiley_cat: All about Tomcat
 
 ## :rocket: Deploy Multiple Servlet Apps in Apache Tomcat
-This project demonstrates how to deploy multiple Servlet-based applications using Apache Tomcat, each with its own config.properties.
+This project demonstrates how to deploy Multiple Servlet-based applications using Apache Tomcat, each with its own config.properties.
 
 ### :file_folder: Project Structure
 Each app should follow a Maven structure:
@@ -15,6 +15,9 @@ your-app/
 │   │   └── webapp/...        ← JSP/HTML files
 ├── pom.xml
 ```
+
+> [!NOTE]
+> Instead of creating 3 different applications, we will use single source code and change the values in `config.properties`. We are simulating 3 distinct applications just by fiddling with `config.properties`.
 
 ### :test_tube: Deployment Steps
 
@@ -88,7 +91,7 @@ Each app will serve its own servlet and load its own config.properties.
 
   * Namespace
 
-> [!NOTE]
+> [!IMPORTANT]
 > :file_folder: Each folder (or .war file) inside `tomcat/webapps/` automatically becomes a distinct context path.
 
 
